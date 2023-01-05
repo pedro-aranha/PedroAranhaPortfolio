@@ -83,8 +83,8 @@ a:hover, a:focus, a:active, a:visited {
 
 /* div class */
 .about {
-	padding: 20px;
-	margin-top: 20px;
+	padding: 50px;
+	margin-top: 50px;
 }
 .about span {
 	font-size: 2em;
@@ -186,18 +186,18 @@ ul.social li a {
  */
 
 /* Mobile */
-/*
+
 @media (max-width: 767px) {
     
     .main .about {
         width: 100%
- /* }*/
-/*} */
+    }
+}
 
 
 /* iPad Portrait */
 
-/*@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
     
     .main .about {
         width: 49%;
@@ -207,9 +207,9 @@ ul.social li a {
 
 /* iPad Landscape */
 
-/*@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .main .about {
         width: 49%;
         margin-right: 9px;
-   /* }*/
-  /* }*/
+    }
+}
