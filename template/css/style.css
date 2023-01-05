@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 hr {
   height: 0;
   border:2px solid #404142;
-  opacity: 0.1;
+    opacity: 0.1;
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
@@ -31,7 +31,7 @@ ul {
 a {
 	-webkit-transition: all 0.3s;
   	-moz-transition: all 0.3s;
-  	     transition: all 0.3s;
+  	transition: all 0.3s;
 }
 a:hover, a:focus, a:active, a:visited {
     text-decoration: none;
@@ -39,11 +39,11 @@ a:hover, a:focus, a:active, a:visited {
 
 /* Button for title text */
 .btn {
-	
+	text-transform: capitalize;
     font-weight: 600;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
-        transition: all 0.6s;
+    transition: all 0.6s;
     
 }
 .btn-lg {
@@ -54,7 +54,7 @@ a:hover, a:focus, a:active, a:visited {
 }
 
 .btn-yellow {
-	background-color: #ffffff;
+	background-color: #fcd93b;
 	color: #2a2a2a;
 	opacity: 0.8;
     -webkit-transition: all 0.6s;
@@ -64,7 +64,9 @@ a:hover, a:focus, a:active, a:visited {
 }
 .btn-yellow:hover {
 	opacity: 0.9;
- }
+    text-transform: uppercase;
+    cursor: pointer;
+}
 
 .btn-red {
 	background-color: rgb(251,155,79);
@@ -88,7 +90,7 @@ a:hover, a:focus, a:active, a:visited {
 }
 .about span {
 	font-size: 2em;
-    color: #000000;
+    color: #016cc7;
 }
             .about p{
                 opacity:0.6;
@@ -186,18 +188,18 @@ ul.social li a {
  */
 
 /* Mobile */
-/*
+
 @media (max-width: 767px) {
     
     .main .about {
         width: 100%
- /* }*/
-/*} */
+    }
+}
 
 
 /* iPad Portrait */
 
-/*@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
     
     .main .about {
         width: 49%;
@@ -207,9 +209,9 @@ ul.social li a {
 
 /* iPad Landscape */
 
-/*@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .main .about {
         width: 49%;
         margin-right: 9px;
-   /* }*/
-  /* }*/
+    }
+}
