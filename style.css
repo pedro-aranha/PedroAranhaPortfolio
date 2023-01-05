@@ -83,8 +83,8 @@ a:hover, a:focus, a:active, a:visited {
 
 /* div class */
 .about {
-	padding: 90px;
-	margin-top: 90px;
+	padding: 150px;
+	margin-top: 150px;
 }
 .about span {
 	font-size: 2em;
@@ -121,6 +121,7 @@ a:hover, a:focus, a:active, a:visited {
   	-moz-transition: all 0.3s;
   	transition: all 0.3s;
   	margin-right: 20px;
+      margin-top: 20px;
   	border: 3px solid #f6f6f6;
     border-radius: 5px;
 }
@@ -148,14 +149,25 @@ a:hover, a:focus, a:active, a:visited {
     
         }
 /* Social Media icons */
+
 ul.social li {
 	list-style: none;
 	display: inline-block;
 	margin: 10px 5px;
+    font-size:25px;
+    
 }
 ul.social li a {
 	
 	padding: 0 10px;
+    
+}#flag {
+    position: relative;
+}
+#flag img {
+    position: absolute; top: -140px;
+    left: -140px;
+  
 }
 .fa{
 	color:#016cc7;
