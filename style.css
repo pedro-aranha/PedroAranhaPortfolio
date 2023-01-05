@@ -152,10 +152,13 @@ ul.social li {
 	list-style: none;
 	display: inline-block;
 	margin: 10px 5px;
+    font-size:25px;
+    
 }
 ul.social li a {
 	
 	padding: 0 10px;
+    
 }
 .fa{
 	color:#016cc7;
